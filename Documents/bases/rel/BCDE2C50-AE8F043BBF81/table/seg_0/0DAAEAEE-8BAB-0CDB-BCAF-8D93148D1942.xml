@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DAAEAEE-8BAB-0CDB-BCAF-8D93148D1942" schemaObject="F885DB09-9030-6E04-6190-461EB206807B" name="ENVIO">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>ENVIO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENVIO" id="D93A288B-580C-BD88-E88B-B0AF022BFA8C">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>ENVIO</sourceObjSchema>
+<sourceObjName>ID_ENVIO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_COMPRA" id="59281A6D-BB90-AED8-4E8F-B4BB6AE267BD">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>ENVIO</sourceObjSchema>
+<sourceObjName>ID_COMPRA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BAE4002-A66D-3112-C2BB-4594712F7CA9" referredColumn="E84AD61B-E765-3509-CA4C-12D29316977B"/>
+</associations>
+</Column>
+<Column name="DIRECCION_ENVIO" id="5945DD07-66D8-324F-0B73-37487281A382">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>ENVIO</sourceObjSchema>
+<sourceObjName>DIRECCION_ENVIO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ENVIO" id="986BC215-B9F0-238E-02FB-BC50E0532A73">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>ENVIO</sourceObjSchema>
+<sourceObjName>FECHA_ENVIO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_ENVIO" id="F83D2257-C7BD-4E59-3366-4BA35F72EC8C">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>ENVIO</sourceObjSchema>
+<sourceObjName>ESTADO_ENVIO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9C6D83B-4C42-2D82-747A-9DC9664A9380" schemaObject="F885DB09-9030-6E04-6190-461EB206807B" name="ENVIO_PK">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007261</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D93A288B-580C-BD88-E88B-B0AF022BFA8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B095E29D-C0A4-64E1-BDC4-924A1CAB0417" name="FK_ENVIO_COMPRA">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59281A6D-BB90-AED8-4E8F-B4BB6AE267BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

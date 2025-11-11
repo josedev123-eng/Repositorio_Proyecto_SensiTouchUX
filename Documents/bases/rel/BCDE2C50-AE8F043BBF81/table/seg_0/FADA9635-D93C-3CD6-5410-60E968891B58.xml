@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FADA9635-D93C-3CD6-5410-60E968891B58" schemaObject="F885DB09-9030-6E04-6190-461EB206807B" name="LIBRO">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>LIBRO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LIBRO" id="E76BF2B7-ADAC-AF69-699E-5DF6C2B40E28">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>LIBRO</sourceObjSchema>
+<sourceObjName>ID_LIBRO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULO" id="F35E621F-2870-9A73-3619-CD78B8455C0F">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>LIBRO</sourceObjSchema>
+<sourceObjName>TITULO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTOR" id="6211A6EB-D700-BFCB-819A-378C80674790">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>LIBRO</sourceObjSchema>
+<sourceObjName>AUTOR</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA" id="C7BB5F0C-8DE7-6858-D6FF-07343E2A5CDB">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>LIBRO</sourceObjSchema>
+<sourceObjName>CATEGORIA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="F0BCAC18-BCE1-2A61-D060-E03DB9844C7E">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>LIBRO</sourceObjSchema>
+<sourceObjName>PRECIO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOCK" id="D325CD63-5E50-277E-0355-977D84610D19">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>LIBRO</sourceObjSchema>
+<sourceObjName>STOCK</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52D4A7BA-3C1C-4B66-FE27-D3CB2E8870E8" schemaObject="F885DB09-9030-6E04-6190-461EB206807B" name="LIBRO_PK">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007253</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E76BF2B7-ADAC-AF69-699E-5DF6C2B40E28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

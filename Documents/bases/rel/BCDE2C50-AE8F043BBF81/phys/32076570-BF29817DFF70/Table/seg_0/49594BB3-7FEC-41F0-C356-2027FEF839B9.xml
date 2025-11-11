@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="COMPRA" directorySegmentName="seg_0" id="49594BB3-7FEC-41F0-C356-2027FEF839B9">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<schemaObject>F885DB09-9030-6E04-6190-461EB206807B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>210F66CE-0A02-6EB3-54E8-D86DA9CE409C</segment>
+<tableSpace>096021B9-75C6-0E61-8954-957E394EE92A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA" id="2F8B4F56-04A1-866D-64D4-3D2402A2A506">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_USUARIO" id="466FFECD-9102-6E86-A0EB-D65206F41A2E">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOTAL" id="A09D4EA1-2F44-E189-EB9E-765BE249C48E">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_COMPRA" id="E84AD61B-E765-3509-CA4C-12D29316977B">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_USUARIO" id="110306D0-4772-72FD-02E8-D298E704CA44">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMPRA_PK" id="E9BBC934-50A8-585D-CD20-2220D63E978C">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<schemaObject>F885DB09-9030-6E04-6190-461EB206807B</schemaObject>
+<segment>A64329AD-686F-11AC-32CA-63F000179C21</segment>
+<tableSpace>096021B9-75C6-0E61-8954-957E394EE92A</tableSpace>
+<indexSegment>A64329AD-686F-11AC-32CA-63F000179C21</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

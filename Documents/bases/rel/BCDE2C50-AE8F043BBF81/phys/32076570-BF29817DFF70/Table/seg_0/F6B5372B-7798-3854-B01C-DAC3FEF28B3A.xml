@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DETALLE_COMPRA" directorySegmentName="seg_0" id="F6B5372B-7798-3854-B01C-DAC3FEF28B3A">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<schemaObject>F885DB09-9030-6E04-6190-461EB206807B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>210F66CE-0A02-6EB3-54E8-D86DA9CE409C</segment>
+<tableSpace>096021B9-75C6-0E61-8954-957E394EE92A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CANTIDAD" id="0579BEDF-47E1-C400-89C1-4AF4328335A9">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBTOTAL" id="40547903-CABC-A20E-E2D0-EFFF3FB369B6">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_DETALLE" id="58C5D840-240D-F4E1-BB63-7A267043904E">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_LIBRO" id="B8334AFE-1F79-E6E4-2C5D-B82C692510C9">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_COMPRA" id="C05AAAF6-DDDA-4592-81A3-7ECC69E6E9AE">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_COMPRA" id="3255678D-8459-D70B-6B3F-8FBB02284A7C">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_LIBRO" id="BF2A3D00-AAC6-76BB-D869-49F1D48DCDF6">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DETALLE_COMPRA_PK" id="6D0D2899-B217-BD91-7EB7-EF7AC7A402AE">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<schemaObject>F885DB09-9030-6E04-6190-461EB206807B</schemaObject>
+<segment>A64329AD-686F-11AC-32CA-63F000179C21</segment>
+<tableSpace>096021B9-75C6-0E61-8954-957E394EE92A</tableSpace>
+<indexSegment>A64329AD-686F-11AC-32CA-63F000179C21</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

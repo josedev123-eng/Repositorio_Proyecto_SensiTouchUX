@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="USUARIO" directorySegmentName="seg_0" id="B213FC48-3277-A09E-E4C7-429E9002D5F7">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<schemaObject>F885DB09-9030-6E04-6190-461EB206807B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>210F66CE-0A02-6EB3-54E8-D86DA9CE409C</segment>
+<tableSpace>096021B9-75C6-0E61-8954-957E394EE92A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CORREO" id="07A06AC9-B3F1-B49E-890A-99B9FE5A3148">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_USUARIO" id="37131B80-221E-3B73-0BD1-586CE327B44A">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO" id="8AF71CF4-9537-A088-AE67-70FCA78E754C">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="8E3DE5E7-1830-4CEC-9C26-99B24ED50E25">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO" id="AB6AF2EB-6FA3-0C00-E0EF-4FC0F06C92CB">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION" id="E5156084-FB51-D3D6-C91C-A6717650C35F">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USUARIO_PK" id="647CFAD1-A120-87C9-F54A-F1F8E0F935E6">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-11 22:30:17 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<schemaObject>F885DB09-9030-6E04-6190-461EB206807B</schemaObject>
+<segment>A64329AD-686F-11AC-32CA-63F000179C21</segment>
+<tableSpace>096021B9-75C6-0E61-8954-957E394EE92A</tableSpace>
+<indexSegment>A64329AD-686F-11AC-32CA-63F000179C21</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
