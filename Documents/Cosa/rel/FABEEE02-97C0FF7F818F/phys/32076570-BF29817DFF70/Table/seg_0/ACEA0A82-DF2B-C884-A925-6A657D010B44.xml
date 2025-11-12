@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LIBRO" directorySegmentName="seg_0" id="ACEA0A82-DF2B-C884-A925-6A657D010B44">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<schemaObject>70813FFC-783D-D316-6520-D78E7E6E660D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>82C5AB08-5CEB-0AE1-0175-9BF8DDE54CCD</segment>
+<tableSpace>C63F4B4E-FFE2-29EF-1945-C050F9F781DC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRECIO" id="66757346-D3BD-ADF9-533F-D77DFAF65BBF">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STOCK" id="6DB949C7-6F7A-B27F-B082-B2358A4EF1DB">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TITULO" id="751433F8-2079-6DC3-82A3-308CF3BBDDA0">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_LIBRO" id="82C1780D-7D7F-0A4A-D9AC-A6C080E9FED4">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORIA" id="8F85FDE0-7D9E-D2E6-1E0A-B3040275FD34">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTOR" id="B7E361D6-30AC-DED3-B9BD-ACBC6D8675C2">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LIBRO_PK" id="3E8B9A7D-7951-2C01-B1FF-05FAD306A524">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<schemaObject>70813FFC-783D-D316-6520-D78E7E6E660D</schemaObject>
+<segment>FC3A69CD-9B19-B48E-4A26-66E920AE06B1</segment>
+<tableSpace>C63F4B4E-FFE2-29EF-1945-C050F9F781DC</tableSpace>
+<indexSegment>FC3A69CD-9B19-B48E-4A26-66E920AE06B1</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

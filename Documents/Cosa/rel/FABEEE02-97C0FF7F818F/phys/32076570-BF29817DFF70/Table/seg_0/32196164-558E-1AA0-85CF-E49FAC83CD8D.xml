@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="USUARIO" directorySegmentName="seg_0" id="32196164-558E-1AA0-85CF-E49FAC83CD8D">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<schemaObject>70813FFC-783D-D316-6520-D78E7E6E660D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>82C5AB08-5CEB-0AE1-0175-9BF8DDE54CCD</segment>
+<tableSpace>C63F4B4E-FFE2-29EF-1945-C050F9F781DC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DIRECCION" id="5E7520D9-85B9-6B81-6B64-6BBB7452472E">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREO" id="80BC8F23-A38D-BF5A-4EDE-0E73881FD462">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO" id="8969C34B-A4BE-4BC8-3A69-349F40870D87">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="98BD7883-BCAE-3AD7-9DC4-3CBA2434F784">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_USUARIO" id="CA8E3638-E959-4DE6-C01F-EE32BFAED2CF">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO" id="E15E7485-1FE2-A5C5-BBD5-C697C6CF0726">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USUARIO_PK" id="8DD0FD8F-7BD6-0D16-9256-729242D15079">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<schemaObject>70813FFC-783D-D316-6520-D78E7E6E660D</schemaObject>
+<segment>FC3A69CD-9B19-B48E-4A26-66E920AE06B1</segment>
+<tableSpace>C63F4B4E-FFE2-29EF-1945-C050F9F781DC</tableSpace>
+<indexSegment>FC3A69CD-9B19-B48E-4A26-66E920AE06B1</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

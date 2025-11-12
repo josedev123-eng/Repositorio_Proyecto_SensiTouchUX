@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74FE72CD-A769-9570-8D51-A31DE6F2C14C" schemaObject="70813FFC-783D-D316-6520-D78E7E6E660D" name="PAGO">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PAGO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PAGO" id="F63EF34B-C398-54A9-EE08-1C730C160BC9">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>PAGO</sourceObjSchema>
+<sourceObjName>ID_PAGO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_COMPRA" id="E8E5B9FA-2A05-87EF-2D3E-DDB85705874A">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>PAGO</sourceObjSchema>
+<sourceObjName>ID_COMPRA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="813CDF1D-BC5D-B387-2FE8-0B0B212FD12B" referredColumn="A98506B1-C9AE-CD69-CA61-6DDFEE9B6EA7"/>
+</associations>
+</Column>
+<Column name="METODO_PAGO" id="90AAE4C2-995F-A013-A10B-F30E31FCF2EE">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>PAGO</sourceObjSchema>
+<sourceObjName>METODO_PAGO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO" id="4DB10707-8017-E26E-90E3-22A116CECC15">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>PAGO</sourceObjSchema>
+<sourceObjName>MONTO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PAGO" id="DB94EA73-C270-FDF0-DDFB-BB3C1CA2FFB9">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>PAGO</sourceObjSchema>
+<sourceObjName>FECHA_PAGO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9BBED4C-C41A-DD65-A496-9381EEE3BD4B" schemaObject="70813FFC-783D-D316-6520-D78E7E6E660D" name="PAGO_PK">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007259</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F63EF34B-C398-54A9-EE08-1C730C160BC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BADAE72-8572-D16B-C7A4-11B856E9E75F" name="FK_PAGO_COMPRA">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8E5B9FA-2A05-87EF-2D3E-DDB85705874A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

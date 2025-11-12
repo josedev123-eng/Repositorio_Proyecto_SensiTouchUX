@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PAGO" directorySegmentName="seg_0" id="74FE72CD-A769-9570-8D51-A31DE6F2C14C">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<schemaObject>70813FFC-783D-D316-6520-D78E7E6E660D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>82C5AB08-5CEB-0AE1-0175-9BF8DDE54CCD</segment>
+<tableSpace>C63F4B4E-FFE2-29EF-1945-C050F9F781DC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MONTO" id="4DB10707-8017-E26E-90E3-22A116CECC15">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="METODO_PAGO" id="90AAE4C2-995F-A013-A10B-F30E31FCF2EE">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_PAGO" id="DB94EA73-C270-FDF0-DDFB-BB3C1CA2FFB9">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_COMPRA" id="E8E5B9FA-2A05-87EF-2D3E-DDB85705874A">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PAGO" id="F63EF34B-C398-54A9-EE08-1C730C160BC9">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PAGO_COMPRA" id="3BADAE72-8572-D16B-C7A4-11B856E9E75F">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PAGO_PK" id="B9BBED4C-C41A-DD65-A496-9381EEE3BD4B">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<schemaObject>70813FFC-783D-D316-6520-D78E7E6E660D</schemaObject>
+<segment>FC3A69CD-9B19-B48E-4A26-66E920AE06B1</segment>
+<tableSpace>C63F4B4E-FFE2-29EF-1945-C050F9F781DC</tableSpace>
+<indexSegment>FC3A69CD-9B19-B48E-4A26-66E920AE06B1</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

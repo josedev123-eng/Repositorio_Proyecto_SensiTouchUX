@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="813CDF1D-BC5D-B387-2FE8-0B0B212FD12B" containerWithKeyObject="74FE72CD-A769-9570-8D51-A31DE6F2C14C" localFKIndex="3BADAE72-8572-D16B-C7A4-11B856E9E75F" name="FK_PAGO_COMPRA">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>FK_PAGO_COMPRA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<referredTableLongName>SYSTEM.COMPRA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>63913C27-C51F-6C71-13DF-B002DF1E93B9</referredTableID>
+<keyObject>A4B96E5E-36B5-C586-2A8C-46D20C6637C1</keyObject>
+<referredKeyID>A4B96E5E-36B5-C586-2A8C-46D20C6637C1</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_COMPRA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

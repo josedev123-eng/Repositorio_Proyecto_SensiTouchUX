@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="728744B8-0381-51B7-DF6E-0DA6F6D494D0" schemaObject="70813FFC-783D-D316-6520-D78E7E6E660D" name="DETALLE_COMPRA">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>DETALLE_COMPRA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DETALLE" id="4AAA49EE-E72C-A3F9-D1A3-8142BD284388">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>DETALLE_COMPRA</sourceObjSchema>
+<sourceObjName>ID_DETALLE</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_COMPRA" id="F1E5D4E1-C919-FB47-A3A9-F9A2D37199D6">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>DETALLE_COMPRA</sourceObjSchema>
+<sourceObjName>ID_COMPRA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A8D7291-8470-DC00-8645-E384AF9350DC" referredColumn="A98506B1-C9AE-CD69-CA61-6DDFEE9B6EA7"/>
+</associations>
+</Column>
+<Column name="ID_LIBRO" id="5967B9EC-04C3-88E7-F30E-57A836ECD898">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>DETALLE_COMPRA</sourceObjSchema>
+<sourceObjName>ID_LIBRO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BFECF5C-4081-7D0E-07C7-5DC6CACF0164" referredColumn="82C1780D-7D7F-0A4A-D9AC-A6C080E9FED4"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="7C7F0492-9C58-A90A-6173-43C079B4E3DD">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>DETALLE_COMPRA</sourceObjSchema>
+<sourceObjName>CANTIDAD</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBTOTAL" id="18D1F2C6-A543-8D4C-F58F-41F4EECCAA5F">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>DETALLE_COMPRA</sourceObjSchema>
+<sourceObjName>SUBTOTAL</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C91501D-7C39-A617-689A-30C762BEE4F7" schemaObject="70813FFC-783D-D316-6520-D78E7E6E660D" name="DETALLE_COMPRA_PK">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007256</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AAA49EE-E72C-A3F9-D1A3-8142BD284388"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD157E83-A782-92C2-5DA0-A1457DF6B7DF" name="FK_COMPRA">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1E5D4E1-C919-FB47-A3A9-F9A2D37199D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24506FE9-C258-05F3-3F31-0F5B8C0938C2" name="FK_LIBRO">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-12 04:48:42 UTC</createdTime>
+<ownerDesignName>Cosa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5967B9EC-04C3-88E7-F30E-57A836ECD898"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
