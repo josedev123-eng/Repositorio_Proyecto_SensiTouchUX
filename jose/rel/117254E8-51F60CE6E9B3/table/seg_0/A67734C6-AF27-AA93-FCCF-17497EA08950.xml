@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A67734C6-AF27-AA93-FCCF-17497EA08950" schemaObject="3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B" name="CURSO">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>CURSO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CURSO" id="8596F661-45B6-5D90-1858-FC79694556E7">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>CURSO</sourceObjSchema>
+<sourceObjName>ID_CURSO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="A64A2141-A0E1-5181-3A9B-90A53AD195BE">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>CURSO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="B4367EC1-2A5C-D9F4-E5B6-D2F95C5B10CD">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>CURSO</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC9445B5-7FCC-D759-9EB4-BA663B66A862" schemaObject="3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B" name="CURSO_PK">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007280</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8596F661-45B6-5D90-1858-FC79694556E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

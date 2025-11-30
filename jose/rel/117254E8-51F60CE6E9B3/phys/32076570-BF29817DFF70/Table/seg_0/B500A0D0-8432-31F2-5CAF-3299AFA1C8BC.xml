@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="NOTA" directorySegmentName="seg_0" id="B500A0D0-8432-31F2-5CAF-3299AFA1C8BC">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<schemaObject>3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BAC0BF50-279C-FC93-864C-74407511E4D8</segment>
+<tableSpace>EC210FB6-6E66-E030-6782-4D9D504C370D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOTA" id="2CCF1000-CEFB-2749-DEB2-0B5DB95CFA06">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CURSO" id="60DF5961-E4BA-8BB9-5277-71BE4DCB9FCA">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_NOTA" id="74779F56-EB18-03A8-F516-D4B27CCE2BD6">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ALUMNO" id="D99A9068-8D6C-426B-3548-21D2630AB96B">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_NOTA_CURSO" id="DFD7B8FC-0EFA-5B6B-9C58-A592A96D1DA3">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<schemaObject>3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B</schemaObject>
+<segment>B62D51D6-03E4-49EF-E888-880682BF7D2B</segment>
+<tableSpace>EC210FB6-6E66-E030-6782-4D9D504C370D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_NOTA_CURSO" id="BC95B924-F4EE-AD5B-E237-E3EA0DF3E0BA">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_NOTA_ALUMNO" id="E7605994-5900-A265-39C5-C19A0350D1E0">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="NOTA_PK" id="7479DC89-F087-AA7A-E466-94CC681FCA8D">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<schemaObject>3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B</schemaObject>
+<segment>B62D51D6-03E4-49EF-E888-880682BF7D2B</segment>
+<tableSpace>EC210FB6-6E66-E030-6782-4D9D504C370D</tableSpace>
+<indexSegment>B62D51D6-03E4-49EF-E888-880682BF7D2B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

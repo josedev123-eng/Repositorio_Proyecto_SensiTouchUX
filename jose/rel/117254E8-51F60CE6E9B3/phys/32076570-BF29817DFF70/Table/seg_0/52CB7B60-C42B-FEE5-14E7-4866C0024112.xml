@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PROFESOR" directorySegmentName="seg_0" id="52CB7B60-C42B-FEE5-14E7-4866C0024112">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<schemaObject>3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BAC0BF50-279C-FC93-864C-74407511E4D8</segment>
+<tableSpace>EC210FB6-6E66-E030-6782-4D9D504C370D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_PROFESOR" id="4068DF34-3D19-951C-8DC8-6E12915DB730">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESPECIALIDAD" id="4730A1CF-9F0A-6520-6591-731720B694E3">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRES" id="5171F452-2958-726B-93DC-B81499BFDF68">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROFESOR_PK" id="7EE7B49D-3A6A-1380-6938-1B2C7A20E28E">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<schemaObject>3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B</schemaObject>
+<segment>B62D51D6-03E4-49EF-E888-880682BF7D2B</segment>
+<tableSpace>EC210FB6-6E66-E030-6782-4D9D504C370D</tableSpace>
+<indexSegment>B62D51D6-03E4-49EF-E888-880682BF7D2B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B500A0D0-8432-31F2-5CAF-3299AFA1C8BC" schemaObject="3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B" name="NOTA">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>NOTA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NOTA" id="74779F56-EB18-03A8-F516-D4B27CCE2BD6">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>NOTA</sourceObjSchema>
+<sourceObjName>ID_NOTA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ALUMNO" id="D99A9068-8D6C-426B-3548-21D2630AB96B">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>NOTA</sourceObjSchema>
+<sourceObjName>ID_ALUMNO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FE04333-2577-098E-C938-74E59EC48702" referredColumn="3AE3CBBE-3047-B85E-9D8D-E616E1737934"/>
+</associations>
+</Column>
+<Column name="ID_CURSO" id="60DF5961-E4BA-8BB9-5277-71BE4DCB9FCA">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>NOTA</sourceObjSchema>
+<sourceObjName>ID_CURSO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71A2CBAB-880A-CA0A-D57C-DCBEACDD9DF4" referredColumn="8596F661-45B6-5D90-1858-FC79694556E7"/>
+</associations>
+</Column>
+<Column name="NOTA" id="2CCF1000-CEFB-2749-DEB2-0B5DB95CFA06">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>NOTA</sourceObjSchema>
+<sourceObjName>NOTA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<constraintName>SYS_C007291</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>20</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7479DC89-F087-AA7A-E466-94CC681FCA8D" schemaObject="3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B" name="NOTA_PK">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007292</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74779F56-EB18-03A8-F516-D4B27CCE2BD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFD7B8FC-0EFA-5B6B-9C58-A592A96D1DA3" schemaObject="3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B" name="IDX_NOTA_CURSO">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>IDX_NOTA_CURSO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60DF5961-E4BA-8BB9-5277-71BE4DCB9FCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7605994-5900-A265-39C5-C19A0350D1E0" name="FK_NOTA_ALUMNO">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D99A9068-8D6C-426B-3548-21D2630AB96B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC95B924-F4EE-AD5B-E237-E3EA0DF3E0BA" name="FK_NOTA_CURSO">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60DF5961-E4BA-8BB9-5277-71BE4DCB9FCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

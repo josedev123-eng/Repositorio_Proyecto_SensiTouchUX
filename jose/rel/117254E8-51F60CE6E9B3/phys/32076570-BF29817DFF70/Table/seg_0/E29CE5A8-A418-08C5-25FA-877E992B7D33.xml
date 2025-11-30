@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MATRICULA" directorySegmentName="seg_0" id="E29CE5A8-A418-08C5-25FA-877E992B7D33">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<schemaObject>3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BAC0BF50-279C-FC93-864C-74407511E4D8</segment>
+<tableSpace>EC210FB6-6E66-E030-6782-4D9D504C370D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_ALUMNO" id="5040D26B-E6ED-6018-D6A3-8AD91C902C21">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MATRICULA" id="DE6C8DCF-54C9-0259-4DE7-A32F3BBA6037">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA" id="E175BFAB-06DE-78B2-5F7E-94C880875733">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_MATRICULA_ALUMNO" id="7CD009C2-6884-D87D-DDED-DC6D6F6A2F98">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MATRICULA_PK" id="808A174B-08A8-66C9-15C9-FF9B01EC4B3E">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<schemaObject>3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B</schemaObject>
+<segment>B62D51D6-03E4-49EF-E888-880682BF7D2B</segment>
+<tableSpace>EC210FB6-6E66-E030-6782-4D9D504C370D</tableSpace>
+<indexSegment>B62D51D6-03E4-49EF-E888-880682BF7D2B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

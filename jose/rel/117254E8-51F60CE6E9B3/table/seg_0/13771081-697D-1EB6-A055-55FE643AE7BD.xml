@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13771081-697D-1EB6-A055-55FE643AE7BD" schemaObject="3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B" name="ALUMNO">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>ALUMNO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ALUMNO" id="3AE3CBBE-3047-B85E-9D8D-E616E1737934">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>ALUMNO</sourceObjSchema>
+<sourceObjName>ID_ALUMNO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>seq_alumno</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_ALUMNO_AUTOINC</autoIncrementTriggerName>
+</Column>
+<Column name="NOMBRES" id="F24A0F2C-648E-A374-2EF2-463F98C696FD">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>ALUMNO</sourceObjSchema>
+<sourceObjName>NOMBRES</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="045EC2C2-DAAD-2E22-9F5B-0D131F32FC7E">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>ALUMNO</sourceObjSchema>
+<sourceObjName>APELLIDOS</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADO" id="285B2C1E-9971-C673-DCB1-36B9A211D354">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>ALUMNO</sourceObjSchema>
+<sourceObjName>GRADO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D02511EE-D7C8-8D33-E3A0-190625DBB7C9" schemaObject="3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B" name="ALUMNO_PK">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007276</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AE3CBBE-3047-B85E-9D8D-E616E1737934"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4A8611C-8D81-D16D-4C1F-3E7BC1E3E55E" schemaObject="3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B" name="IDX_ALUMNO_APELLIDOS">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>IDX_ALUMNO_APELLIDOS</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="045EC2C2-DAAD-2E22-9F5B-0D131F32FC7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

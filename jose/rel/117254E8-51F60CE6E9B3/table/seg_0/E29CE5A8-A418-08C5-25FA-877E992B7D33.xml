@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E29CE5A8-A418-08C5-25FA-877E992B7D33" schemaObject="3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B" name="MATRICULA">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MATRICULA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MATRICULA" id="DE6C8DCF-54C9-0259-4DE7-A32F3BBA6037">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>MATRICULA</sourceObjSchema>
+<sourceObjName>ID_MATRICULA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ALUMNO" id="5040D26B-E6ED-6018-D6A3-8AD91C902C21">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>MATRICULA</sourceObjSchema>
+<sourceObjName>ID_ALUMNO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="397527FC-10A0-8124-CE42-33260E5BFD05" referredColumn="3AE3CBBE-3047-B85E-9D8D-E616E1737934"/>
+</associations>
+</Column>
+<Column name="FECHA" id="E175BFAB-06DE-78B2-5F7E-94C880875733">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>MATRICULA</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="808A174B-08A8-66C9-15C9-FF9B01EC4B3E" schemaObject="3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B" name="MATRICULA_PK">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007282</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE6C8DCF-54C9-0259-4DE7-A32F3BBA6037"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CD009C2-6884-D87D-DDED-DC6D6F6A2F98" name="FK_MATRICULA_ALUMNO">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5040D26B-E6ED-6018-D6A3-8AD91C902C21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

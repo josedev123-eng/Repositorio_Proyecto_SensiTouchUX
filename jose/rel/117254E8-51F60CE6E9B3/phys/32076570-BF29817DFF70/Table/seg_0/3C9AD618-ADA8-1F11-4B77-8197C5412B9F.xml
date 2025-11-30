@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CURSO_PROFESOR" directorySegmentName="seg_0" id="3C9AD618-ADA8-1F11-4B77-8197C5412B9F">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<schemaObject>3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BAC0BF50-279C-FC93-864C-74407511E4D8</segment>
+<tableSpace>EC210FB6-6E66-E030-6782-4D9D504C370D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_CURSOPROFESOR" id="023F78F1-A8AC-B6B1-A8BF-2D5C2B1FEFF1">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CURSO" id="B8594F6B-F97D-0279-0C8B-F26DDD90C6C8">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PROFESOR" id="EC8506C4-80A2-7CE0-C117-D558DB39244D">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CURSOPROFESOR_CURSO" id="15733DE2-5DD1-60C4-3401-16EE47700205">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CURSOPROFESOR_PROFESOR" id="7DA12FEF-5670-8623-19F0-679448003330">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CURSO_PROFESOR_PK" id="A72261D1-9BD9-C797-DCC8-5DDEE03CB874">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<schemaObject>3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B</schemaObject>
+<segment>B62D51D6-03E4-49EF-E888-880682BF7D2B</segment>
+<tableSpace>EC210FB6-6E66-E030-6782-4D9D504C370D</tableSpace>
+<indexSegment>B62D51D6-03E4-49EF-E888-880682BF7D2B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

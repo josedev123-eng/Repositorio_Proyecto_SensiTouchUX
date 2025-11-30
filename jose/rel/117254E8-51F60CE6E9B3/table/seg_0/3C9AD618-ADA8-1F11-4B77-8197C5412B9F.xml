@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C9AD618-ADA8-1F11-4B77-8197C5412B9F" schemaObject="3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B" name="CURSO_PROFESOR">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>CURSO_PROFESOR</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CURSOPROFESOR" id="023F78F1-A8AC-B6B1-A8BF-2D5C2B1FEFF1">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>CURSO_PROFESOR</sourceObjSchema>
+<sourceObjName>ID_CURSOPROFESOR</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CURSO" id="B8594F6B-F97D-0279-0C8B-F26DDD90C6C8">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>CURSO_PROFESOR</sourceObjSchema>
+<sourceObjName>ID_CURSO</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93873CF7-BAFC-7ECB-A790-6DC1250E44FD" referredColumn="8596F661-45B6-5D90-1858-FC79694556E7"/>
+</associations>
+</Column>
+<Column name="ID_PROFESOR" id="EC8506C4-80A2-7CE0-C117-D558DB39244D">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>CURSO_PROFESOR</sourceObjSchema>
+<sourceObjName>ID_PROFESOR</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:11 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4E3A5F7-C262-738D-E91B-87E141DC13C5" referredColumn="4068DF34-3D19-951C-8DC8-6E12915DB730"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A72261D1-9BD9-C797-DCC8-5DDEE03CB874" schemaObject="3C4A2FA1-4542-444E-F75A-8D0F49A0FC5B" name="CURSO_PROFESOR_PK">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007286</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="023F78F1-A8AC-B6B1-A8BF-2D5C2B1FEFF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15733DE2-5DD1-60C4-3401-16EE47700205" name="FK_CURSOPROFESOR_CURSO">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8594F6B-F97D-0279-0C8B-F26DDD90C6C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DA12FEF-5670-8623-19F0-679448003330" name="FK_CURSOPROFESOR_PROFESOR">
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC8506C4-80A2-7CE0-C117-D558DB39244D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

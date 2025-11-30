@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_VALIDAR_NOTA" directorySegmentName="seg_0" id="7580DAD4-3817-9B7F-FD2D-695863550F6D">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TRG_VALIDAR_NOTA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+    IF :NEW.nota < 0 OR :NEW.nota > 20 THEN
+        RAISE_APPLICATION_ERROR(-20001, 'La nota debe estar entre 0 y 20.');
+    END IF;
+END;
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>E293BD9D-48BB-3015-EF9C-7C3B80C77D12</owner>
+<table>B500A0D0-8432-31F2-5CAF-3299AFA1C8BC</table>
+</TriggerOraclev10g>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_FECHA_MATRICULA" directorySegmentName="seg_0" id="8B491E4C-A2FE-DBBF-6BAF-25E1FA3AA7A1">
+<sourceConnName>Conexion</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TRG_FECHA_MATRICULA</sourceObjName>
+<createdBy>joser</createdBy>
+<createdTime>2025-11-30 04:37:12 UTC</createdTime>
+<ownerDesignName>jose</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+    :NEW.fecha := SYSDATE;
+END;
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>E293BD9D-48BB-3015-EF9C-7C3B80C77D12</owner>
+<table>E29CE5A8-A418-08C5-25FA-877E992B7D33</table>
+</TriggerOraclev10g>
