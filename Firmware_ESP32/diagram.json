@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "author": "SensiTouch UX - Grupo 8",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "board-ssd1306",
+      "id": "oled",
+      "top": -140,
+      "left": -10,
+      "attrs": {
+        "i2cAddress": "0x3c"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "bMalo",
+      "top": -30,
+      "left": -230,
+      "attrs": {
+        "color": "red",
+        "label": "SENSOR IR MALO"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "bRegular",
+      "top": 50,
+      "left": -230,
+      "attrs": {
+        "color": "yellow",
+        "label": "SENSOR IR REGULAR"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "bBueno",
+      "top": 130,
+      "left": -230,
+      "attrs": {
+        "color": "green",
+        "label": "SENSOR IR BUENO"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "bAcc",
+      "top": 240,
+      "left": -230,
+      "attrs": {
+        "color": "blue",
+        "label": "BOTON ACCESIBLE"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "lMalo",
+      "top": -60,
+      "left": 220,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rMalo",
+      "top": -12,
+      "left": 150,
+      "rotate": 0,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "lRegular",
+      "top": 10,
+      "left": 220,
+      "attrs": {
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rRegular",
+      "top": 58,
+      "left": 150,
+      "rotate": 0,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "lBueno",
+      "top": 80,
+      "left": 220,
+      "attrs": {
+        "color": "green"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rBueno",
+      "top": 128,
+      "left": 150,
+      "rotate": 0,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "lAcc",
+      "top": 150,
+      "left": 220,
+      "attrs": {
+        "color": "blue"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rAcc",
+      "top": 198,
+      "left": 150,
+      "rotate": 0,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz",
+      "top": 200,
+      "left": 200,
+      "attrs": {
+        "volume": "0.3"
+      }
+    },
+    {
+      "type": "wokwi-slide-switch",
+      "id": "sw",
+      "top": -120,
+      "left": -150,
+      "attrs": {
+        "value": "1"
+      }
+    }
+  ],
+  "connections": [
+    [
+      "esp:TX0",
+      "$serialMonitor:RX",
+      "",
+      []
+    ],
+    [
+      "esp:RX0",
+      "$serialMonitor:TX",
+      "",
+      []
+    ],
+    [
+      "oled:GND",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "oled:VCC",
+      "esp:3V3",
+      "red",
+      []
+    ],
+    [
+      "oled:SDA",
+      "esp:D21",
+      "blue",
+      []
+    ],
+    [
+      "oled:SCL",
+      "esp:D22",
+      "purple",
+      []
+    ],
+    [
+      "bMalo:2.r",
+      "esp:D32",
+      "red",
+      []
+    ],
+    [
+      "bMalo:1.r",
+      "esp:GND.2",
+      "black",
+      []
+    ],
+    [
+      "bRegular:2.r",
+      "esp:D33",
+      "gold",
+      []
+    ],
+    [
+      "bRegular:1.r",
+      "esp:GND.2",
+      "black",
+      []
+    ],
+    [
+      "bBueno:2.r",
+      "esp:D25",
+      "green",
+      []
+    ],
+    [
+      "bBueno:1.r",
+      "esp:GND.2",
+      "black",
+      []
+    ],
+    [
+      "bAcc:2.r",
+      "esp:D27",
+      "blue",
+      []
+    ],
+    [
+      "bAcc:1.r",
+      "esp:GND.2",
+      "black",
+      []
+    ],
+    [
+      "esp:D26",
+      "rMalo:1",
+      "red",
+      []
+    ],
+    [
+      "rMalo:2",
+      "lMalo:A",
+      "red",
+      []
+    ],
+    [
+      "lMalo:C",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:D14",
+      "rRegular:1",
+      "gold",
+      []
+    ],
+    [
+      "rRegular:2",
+      "lRegular:A",
+      "gold",
+      []
+    ],
+    [
+      "lRegular:C",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:D13",
+      "rBueno:1",
+      "green",
+      []
+    ],
+    [
+      "rBueno:2",
+      "lBueno:A",
+      "green",
+      []
+    ],
+    [
+      "lBueno:C",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:D4",
+      "rAcc:1",
+      "blue",
+      []
+    ],
+    [
+      "rAcc:2",
+      "lAcc:A",
+      "blue",
+      []
+    ],
+    [
+      "lAcc:C",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "bz:2",
+      "esp:D18",
+      "orange",
+      []
+    ],
+    [
+      "bz:1",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "sw:2",
+      "esp:EN",
+      "gray",
+      []
+    ],
+    [
+      "sw:1",
+      "esp:GND.2",
+      "black",
+      []
+    ]
+  ],
+  "dependencies": {}
+}
