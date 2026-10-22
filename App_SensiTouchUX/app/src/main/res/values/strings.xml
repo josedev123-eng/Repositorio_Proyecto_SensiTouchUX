@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SensiTouch UX</string>
+    <string name="canal_alertas">Alertas de opiniones negativas</string>
+    <string name="canal_alertas_desc">Avisa al momento cuando las opiniones negativas superan el límite o llegan seguidas.</string>
+    <string name="canal_resumen">Resumen del día</string>
+    <string name="canal_resumen_desc">Resumen de los votos del día a la hora que elijas.</string>
+    <string name="canal_dispositivo">Estado del dispositivo</string>
+    <string name="canal_dispositivo_desc">Avisa si el SensiTouch deja de responder.</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_marino">#FF1F3864</color>
+    <color name="azul_sensi">#FF2E75B6</color>
+    <color name="turquesa">#FF00A0A0</color>
+    <color name="fondo">#FFF4F7FB</color>
+    <color name="malo">#FFE5484D</color>
+</resources>
